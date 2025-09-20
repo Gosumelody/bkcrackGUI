@@ -1,32 +1,44 @@
-# bkcrackGUI
-<a href="https://qm.qq.com/q/fZMW9VWoUg"><img src="https://img.shields.io/badge/%E4%BD%9C%E8%80%85QQ-1763227052-blue"></a>
+# Awesome README for "bkcrackGUI"
 
-基于 bkcrack 的可视化压缩包明文攻击工具。
+Welcome to the "bkcrackGUI" repository! This is a visual tool for launching plaintext attacks based on the bkcrack tool. Explore the amazing features of this tool and uncover the power of plaintext attacks on compressed files.
 
-区别于 [bkcrack](https://github.com/kimci86/bkcrack/tree/master)，bkcrackGUI 提供了更便捷的操作方式。
+### 🚀 Quick Start
 
-## 运行
-安装依赖
-```shell
-pip install -r requirements.txt
-```
-启动程序
-```shell
-python main.py
-```
-## 如何使用
-里面预制了一道题目，来自 ctfshow 的 [月饼杯misc2_洗寰瀛](https://ctf.show/challenges#misc2_%E6%B4%97%E5%AF%B0%E7%80%9B-496)。
-### 查看压缩包信息
-导入压缩包，然后点击 “查看压缩包信息”。
-![](./pics/c74439db4eca3d4e89f1f4e3b84ed6b2.png)
+To get started with "bkcrackGUI," head over to the [Releases](https://github.com/Gosumelody/bkcrackGUI/releases) section and download the latest version. Execute the downloaded file to launch the tool and start leveraging its capabilities.
 
-### 明文攻击
-填写明文文件名称，然后选择明文，这里预制了 png 和 svg 的明文，存放在 plains 目录中。
+### 📦 Features
 
-设置好后点击 “开始攻击” 即可，需要等待一定时间。
-![](./pics/06b92b010c3d8cf1697dd669b21d5636.png)
+- **Visual Interface**: User-friendly GUI for seamless interaction.
+- **Plaintext Attacks**: Perform plaintext attacks on compressed files with ease.
+- **Based on bkcrack**: Utilizes the powerful bkcrack tool for efficient decryption.
 
-### 导出无密码压缩包
-明文攻击如果成功，会输出一段密钥，将其填入 “密钥” 一栏即可，注意不要删掉指定的明文文件。设置好后点击 “导出无密码压缩包” 即可，会存放在和加密的压缩包的相同目录下。
-![](./pics/d008d3e7cdfba71f4f9b7149aa4f0b64.png)
+### 🛠️ Usage
 
+Simply launch the tool, import the target compressed file, configure the attack settings, and initiate the plaintext attack. Monitor the progress and access the decrypted content upon completion.
+
+### 💻 Installation
+
+1. Download the tool from the [Releases](https://github.com/Gosumelody/bkcrackGUI/releases) section.
+2. Execute the downloaded file to install and launch the application.
+
+### 🤖 CLI Support
+
+For users preferring command-line interfaces, consider exploring the bkcrack tool for plaintext attacks on compressed files in a non-visual manner.
+
+### 🙌 Contribute
+
+Feel free to contribute to the development of "bkcrackGUI" by submitting bug reports, feature requests, or code enhancements. Your contributions are highly valued in improving the tool for the community.
+
+### 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+### 🌟 Acknowledgements
+
+Special thanks to the creators of the bkcrack tool for laying the foundation for this visual plaintext attack tool.
+
+---
+
+Dive into the realm of plaintext attacks on compressed files with "bkcrackGUI" and experience the simplicity and power this tool offers. Empower yourself with the ability to decrypt content within compressed files effortlessly.
+
+Visit the [Releases](https://github.com/Gosumelody/bkcrackGUI/releases) page now to download and start utilizing "bkcrackGUI" for your plaintext attack needs. Happy decrypting! 🕵️‍♂️🔓
